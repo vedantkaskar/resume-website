@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --border: 220 14% 90%;
+  --muted: 220 9% 46%;
+  --accent: 220 14% 96%;
+  --primary: 221 83% 53%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+}
+
+.section-padding {
+  @apply px-4 py-12 sm:px-6 sm:py-14 md:px-10 md:py-16 lg:px-16;
+}
+
+.glass-panel {
+  @apply rounded-[1.5rem] border bg-white shadow-sm sm:rounded-[2rem];
+  border-color: hsl(var(--border));
+}
+
+.curve-section {
+  @apply rounded-[2rem] border bg-slate-50/70 sm:rounded-[2.5rem];
+  border-color: hsl(var(--border));
+}

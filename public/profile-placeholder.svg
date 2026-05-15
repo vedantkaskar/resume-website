@@ -1,0 +1,13 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" rx="56" fill="url(#bg)"/>
+  <circle cx="450" cy="370" r="170" fill="#22d3ee" opacity="0.24"/>
+  <circle cx="450" cy="360" r="126" fill="#0f172a"/>
+  <path d="M220 900c22-165 149-255 230-255s206 90 228 255" fill="#0f172a"/>
+  <text x="450" y="1000" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="44" text-anchor="middle">Vedant Prashant Kaskar</text>
+</svg>
